@@ -14,21 +14,22 @@
 <body>
 
   <!--   nav bar   -->
-  <nav class="white" role="navigation">
-    <div class="nav-wrapper container">
-      <a id="logo-container" href="#" class="brand-logo"><img id=logo1 src="images/logo.png" alt="logo"></a>
-      <ul class="right hide-on-med-and-down">
+  <nav>
+      <div class="nav-wrapper white">
+        <a id="logo-container" href="#" class="brand-logo"><img id=logo1 src="images/logo.png" alt="logo"></a>
+        <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+        <ul class="right hide-on-med-and-down">
+          <li><a href="index.html">Home</a></li>
           <li><a href="account.html">Login</a></li>
-          <li><a class="dropdown-trigger" href="#!" data-target="dropdown1">Menu<i class="material-icons right">arrow_drop_down</i></a></li>
-      </ul>
-    </div>
-  </nav>
-  <!--   drop down   -->
-    <ul id="dropdown1" class="dropdown-content">
-        <li><a href="#!">one</a></li>
-        <li><a href="#!">two</a></li>
-        <li class="divider"></li>
-        <li><a href="#!">three</a></li>
+          <li><a href="recipesearch.html">Search</a></li>
+        </ul>
+      </div>
+    </nav>
+  
+    <ul class="sidenav" id="mobile-demo">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="account.html">Login</a></li>
+      <li><a href="recipesearch.html">Search</a></li>
     </ul>
   <!--   hero 1   -->
   <div id="index-banner" class="parallax-container">
