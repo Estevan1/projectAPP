@@ -30,4 +30,8 @@ $("#search-button").on("click", function(event){
             console.log(response.hits[i].recipe.calories);
         }
     });
+
+    $("#image"+i).on("click", function(){
+        console.log($("id").val());
+    } )
 });
