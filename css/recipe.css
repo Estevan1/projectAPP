@@ -1,8 +1,10 @@
 #recipeImage
 {
-    width: 350px;
-    height: 350px;
-    background-size: auto 
+    width: 200px;
+    height: 200px;
+    background-size: auto;
+    margin-left: 1%;
+    
 
 }
 
@@ -10,4 +12,5 @@
 {
     display: flex;
     flex-wrap: wrap;
+    margin-left: 8%
 }
