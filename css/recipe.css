@@ -1,0 +1,13 @@
+#recipeImage
+{
+    width: 350px;
+    height: 350px;
+    background-size: auto 
+
+}
+
+#recipe-view
+{
+    display: flex;
+    flex-wrap: wrap;
+}
