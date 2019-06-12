@@ -15,9 +15,6 @@ $("#search-button").on("click", function(event){
     })
     .then(response => {
         console.log(response);
-<<<<<<< Updated upstream
-
-=======
         for (var i = 0; i < 10; i++)
         {
             $("#receipe-view").append("<div id = 'photo'>")
@@ -29,7 +26,6 @@ $("#search-button").on("click", function(event){
 
             console.log(response.hits[i].recipe.calories);
         }
->>>>>>> Stashed changes
     });
 });
 
