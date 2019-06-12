@@ -25,9 +25,13 @@ $("#search-button").on("click", function(event){
             //$("img").append("<p>Hello World</p>");
             //$("#recipe-view").append('<div class="card-panel hoverable" width = "20%" id = "image' + i + '> Hoverable Card Panel</div>');
             //$("#recipe-view").append("<div ; width:'300px'; height:'300px'' class='card-panel hoverable' width='300px' height='300px' id='image"+i+"'></div>");
-            $("#recipe-view").append("<div id='recipeImage' class='card-panel hoverable' style='background: url("+response.hits[i].recipe.image+")'></div>");
+            $("#recipe-view").append("<div id='image"+ i +"' class='recipeImage card-panel hoverable' style='background: url("+ response.hits[i].recipe.image +")'>"+ response.hits[i].recipe.label +"</div>");
 
             console.log(response.hits[i].recipe.calories);
         }
     });
+
+    $("#image"+i).on("click", function(){
+        console.log($("id").val());
+    } )
 });
