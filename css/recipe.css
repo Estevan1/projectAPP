@@ -1,10 +1,11 @@
-#recipeImage
+.recipeImage
 {
     width: 200px;
     height: 200px;
     background-size: auto;
     margin-left: 1%;
-    
+    color: #4db6ac;
+    font-weight: bolder;
 
 }
 
@@ -12,9 +13,10 @@
 {
     display: flex;
     flex-wrap: wrap;
-    margin-left: 8%;
+    margin-left: 20%;
     padding:10px;
     padding-bottom:60px;
+    width: 1100px;
 }
 
 footer {
