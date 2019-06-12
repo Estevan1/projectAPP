@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">  
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <title>Food APP</title>
+
+  <!-- CSS  -->
+  <script src="https://kit.fontawesome.com/818702f4f1.js"></script>
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+</head> 
+<body>
+
+  <!--   nav bar   -->
+  <nav>
+      <div class="nav-wrapper white">
+        <a id="logo-container" href="#" class="brand-logo"><img id=logo1 src="images/logo.png" alt="logo"></a>
+        <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+        <ul class="right hide-on-med-and-down">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="account.html">Login</a></li>
+          <li><a href="recipesearch.html">Search</a></li>
+        </ul>
+      </div>
+    </nav>
+  
+    <ul class="sidenav" id="mobile-demo">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="account.html">Login</a></li>
+      <li><a href="recipesearch.html">Search</a></li>
+    </ul>
+
+    <div id="index-banner" class="parallax-container">
+        <div class="section no-pad-bot">
+          <div class="container">
+            <br><br>
+            <h1 class="header center teal-text text-lighten-2">Search for the nearest market!</h1>
+            <nav>
+                <div class="nav-wrapper">
+                    <form>
+                        <div class="input-field white">
+                            <input id="search-bar" type="search" required>
+                            <label class="label-icon" for="search"><i class="material-icons">search</i></label>
+                            <i class="material-icons">close</i>
+                        </div>
+                    </form>
+                </div>
+                <div class="row center">
+                    <a class="waves-effect waves-light btn-large" id="search-button" type="submit">Search</a>
+                </div>
+            </nav>
+          </div>
+        </div>
+      </div>
+  
+
+  <footer class="page-footer teal">
+    <div class="footer-copyright">
+      <div class="container">
+      Made by Juney, Estevan and Ricardo
+      </div>
+    </div>
+  </footer>
+
+
+  <!--  Scripts-->
+  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script src="js/materialize.js"></script>
+  <script src="js/init.js"></script>
+
+  </body>
+</html>
