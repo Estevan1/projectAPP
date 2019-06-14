@@ -1,1 +1,3 @@
-console.log(1);
+document.getElementById("redirect").onclick = function () {
+    location.href = "recipesearch.html";
+};

@@ -23,6 +23,25 @@
 
     <div class="section"></div>
     <main>
+        <nav>
+            <div class="nav-wrapper white">
+              <a id="logo-container" href="#" class="brand-logo"><img id=logo1 src="images/logo.png" alt="logo"></a>
+              <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+              <ul class="right hide-on-med-and-down">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="account.html">Login</a></li>
+                <li><a href="recipesearch.html">Search</a></li>
+                <li><a href="map.html">Stores</a></li>
+              </ul>
+            </div>
+          </nav>
+        
+          <ul class="sidenav" id="mobile-demo">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="account.html">Login</a></li>
+            <li><a href="recipesearch.html">Search</a></li>
+            <li><a href="map.html">Stores</a></li>
+          </ul>
       <center>
         <div class="section"></div>
   
@@ -58,7 +77,7 @@
               <br />
               <center>
                 <div class='row'>
-                  <button type='submit' name='btn_login' class='col s12 btn btn-large waves-effect indigo'>Login</button>
+                  <button type='submit' name='btn_login' id="redirect" class='col s12 btn btn-large waves-effect indigo'>Login</button>
                 </div>
               </center>
             </form>
@@ -66,9 +85,19 @@
         </div>
         <a href="#!">Create account</a>
       </center>
+
+      <footer class="page-footer teal">
+          <div class="footer-copyright">
+            <div class="container">
+            Made by Juney, Estevan and Ricardo
+            </div>
+          </div>
+        </footer>
   </div>
   
   <!--  Scripts-->
+  
+  <script src="js/index.js"></script> 
   <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
   <script src="js/materialize.js"></script>
   <script src="js/init.js"></script>

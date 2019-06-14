@@ -80,3 +80,15 @@ footer.page-footer {
     position: absolute;
     top: 0; right: 0; left: 0; bottom: 0;
   }
+
+  #map {
+    height: 100%;
+    height: 500px;
+    width: 100%;
+<<<<<<< HEAD
+  }
+=======
+  }
+
+
+>>>>>>> 54f6c7bbd5e740387c16b3cc4d051d8a1a2d7349

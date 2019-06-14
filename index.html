@@ -22,6 +22,7 @@
           <li><a href="index.html">Home</a></li>
           <li><a href="account.html">Login</a></li>
           <li><a href="recipesearch.html">Search</a></li>
+          <li><a href="map.html">Stores</a></li>
         </ul>
       </div>
     </nav>
@@ -30,15 +31,16 @@
       <li><a href="index.html">Home</a></li>
       <li><a href="account.html">Login</a></li>
       <li><a href="recipesearch.html">Search</a></li>
+      <li><a href="map.html">Stores</a></li>
     </ul>
   <!--   hero 1   -->
   <div id="index-banner" class="parallax-container">
     <div class="section no-pad-bot">
       <div class="container">
         <br><br>
-        <h1 class="header center teal-text text-lighten-2">Secret Ingredient</h1>
+        <h1 class="header center teal-text text-lighten-2"><strong>Secret Ingredient</strong></h1>
         <div class="row center">
-          <h5 class="header col s12 light">The only Recipe App you will ever need!</h5>
+          <h5 class="header col s12 light"><strong>The only Recipe App you will ever need!</strong></h5>
         </div>
         <br><br>
 
@@ -58,25 +60,25 @@
             <h2 class="center black-text"><i class="fas fa-utensils"></i></h2>
             <!--change writing here-->
             <h5 class="center">Ease of Use</h5>
-            <p class="light">Thousands of recipes for you to find exactly what you want to eat. We have searched the entire internet for the best recipies from the best chefs in the world.</p>
+            <p class="light">Thousands of recipes for you to find exactly what you're craving! We have found some of the best recipies on the internet. If you can imagine it we have it from Elvis Presley's Hot Peanut Butter and Banana Sandwich to Lobster Galette</p>
           </div>
         </div>
 
         <div class="col s12 m4">
           <div class="icon-block">
-            <h2 class="center brown-text"><i class="fas fa-pizza-slice"></i></h2>
+            <h2 class="center brown-text"><i class="fas fa-leaf"></i></h2>
             <!--change writing here-->
-            <h5 class="center">Health forward</h5>
-            <p class="light">Every recipie will have it's complete nutritional value listed so you can make an informed decision for and your family.</p>
+            <h5 class="center">Healthy Lifestyle</h5>
+            <p class="light">A healthy lifestyle involves many choices. Among them, choosing a balanced diet or healthy eating plan. We here at Secret Ingredient make it easy and list the nutrional value of all of our recipes.</p>
           </div>
         </div>
 
         <div class="col s12 m4">
           <div class="icon-block">
-            <h2 class="center yellow-text"><i class="fas fa-cheese"></i></h2>
+            <h2 class="center yellow-text"><i class="fas fa-map-marked-alt"></i></h2>
             <!--change writing here-->
-            <h5 class="center">Postmates</h5>
-            <p class="light">Here at Secret Ingredient we know time is valuable so weve made it easy for you to order all your ingrediants to make a healthy meal from your local grocer.</p>
+            <h5 class="center">Google Maps</h5>
+            <p class="light">Here at Secret Ingredient we know time is valuable so weve made it easy for you to find that local grocery store or mom and pop shop that may have those harder to find items like dried morel mushrooms, pink himalayan salt or escarole.</p>
           </div>
         </div>
       </div>
@@ -91,7 +93,7 @@
         <div class="row center">
             <h1 class="header center white-text text-lighten-2">Get Started</h1>
             <div class="row center">
-                <a class="waves-effect waves-light btn-large">Here</a>
+                <a id="redirect" class="waves-effect waves-light btn-large">Here</a>
             </div>
       </div>
     </div>
@@ -105,11 +107,31 @@
         <div class="col s12 center">
           <h3><i class="mdi-content-send brown-text"></i></h3>
           <!--change writing here-->
-          <h4>Contact Us</h4>
-          <p class="left-align light">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam scelerisque id nunc nec volutpat. Etiam pellentesque tristique arcu, non consequat magna fermentum ac. Cras ut ultricies eros. Maecenas eros justo, ullamcorper a sapien id, viverra ultrices eros. Morbi sem neque, posuere et pretium eget, bibendum sollicitudin lacus. Aliquam eleifend sollicitudin diam, eu mattis nisl maximus sed. Nulla imperdiet semper molestie. Morbi massa odio, condimentum sed ipsum ac, gravida ultrices erat. Nullam eget dignissim mauris, non tristique erat. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae;</p>
+          <h3>Contact Us</h3>
+          <p class="center-align light">If you have any questions please get in touch with us.</p>
         </div>
       </div>
-
+      <div class="section">
+        <div class="row">
+          <div class="col s6 left">
+            <form action="/action_page.php">
+              <label for="fname">First Name</label>
+              <input type="text" id="fname" name="firstname" placeholder="Your name..">
+              <label for="lname">Last Name</label>
+              <input type="text" id="lname" name="lastname" placeholder="Your last name.."><br>
+            </form>
+          </div>
+          <div class="col s6 right">
+            <form action="/action_page.php">
+              <label for="subject">Subject</label>
+              <textarea id="subject" name="subject" placeholder="Write something.." style="height:140px"></textarea>
+              <button class="btn waves-effect waves-light" type="submit" name="action">Submit
+                <i class="material-icons right">send</i>
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
     </div>
   </div>
 
@@ -118,7 +140,7 @@
     <div class="section no-pad-bot">
       <div class="container">
         <div class="row center">
-          <h5 class="header center white-text text-lighten-2">What ever u wanna write here estevan</h5>
+          <h5 class="header center white-text text-lighten-2"><strong>A Place for the Joy of Food</strong></h5>
           <div class="row center">
           </div>
         </div>
@@ -140,6 +162,7 @@
   <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
   <script src="js/materialize.js"></script>
   <script src="js/init.js"></script>
+  <script src="js/index.js"></script>
 
   </body>
 </html>
