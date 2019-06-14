@@ -14,6 +14,21 @@
 
 }
 
+.recipeImage2
+{
+    width: 300px;
+    height: 300px;
+    background-size: auto;
+    margin-left: 1%;
+    color: #4db6ac;
+    font-weight: bolder;
+    text-shadow:
+		-1px -1px 0 #000,
+		1px -1px 0 #000,
+		-1px 1px 0 #000,
+		1px 1px 0 #000;
+}
+
 #recipe-view
 {
     display: flex;
@@ -43,7 +58,7 @@ footer {
 
 #info
 {
-    color: #4db6ac;
+    color: whitesmoke;
 }
 
 #header
@@ -59,4 +74,13 @@ footer {
 #indredients
 {
     float: left;
+}
+
+#link-button
+{
+    position: absolute;
+    left: 41%;
+    top: 123.5%;
+    text-align: center;
+    font-size: 18px;
 }
