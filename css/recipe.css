@@ -6,6 +6,11 @@
     margin-left: 1%;
     color: #4db6ac;
     font-weight: bolder;
+    text-shadow:
+		-1px -1px 0 #000,
+		1px -1px 0 #000,
+		-1px 1px 0 #000,
+		1px 1px 0 #000;
 
 }
 
@@ -17,11 +22,7 @@
     padding:10px;
     padding-bottom:60px;
     width: 1100px;
-    text-shadow:
-		-1px -1px 0 #000,
-		1px -1px 0 #000,
-		-1px 1px 0 #000,
-		1px 1px 0 #000;
+    
 }
 
 footer {
@@ -38,4 +39,24 @@ footer {
 
 #footer2 {
     background: #4db6ac;
+}
+
+#info
+{
+    color: #4db6ac;
+}
+
+#header
+{
+    font-size: 20px;
+}
+
+#nutlist
+{
+    margin-left: 100px;
+}
+
+#indredients
+{
+    float: left;
 }
