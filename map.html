@@ -33,10 +33,25 @@
       <li><a href="recipesearch.html">Search</a></li>
     </ul>
 
-   <div id="container">
-    <div id="map"></div>
-   </div>
-
+    <div class="row">
+        <div id="mainCont" class="col s12 s6">
+          <div class="card white darken-1">
+            <div class="card-action">
+                address:
+                <input type="text" name="firstname" value="Mickey">
+                <br>
+                zip code:
+                <input type="text" name="lastname" value="Mouse">
+                <br><br>
+            <div class="card-content white-text">
+              <div id="map"></div>>
+            </div>
+            </div>
+          </div>
+        </div>
+      </div>
+                
+   
   <footer class="page-footer teal">
     <div class="footer-copyright">
       <div class="container">
@@ -50,9 +65,8 @@
   <!--  Scripts-->
   <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
   <script src="js/materialize.js"></script>
-  <script src="js/init.js"></script>
   <script src="js/map.js"></script>
-  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAxhrFeexqrB4O7xdgz280YEgTdTdT8XdE"></script>
-
-  </body>
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAxhrFeexqrB4O7xdgz280YEgTdTdT8XdE&callback=initMap" async defer></script>
+  <script src="js/init.js"></script>
+    </body>
 </html>
