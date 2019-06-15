@@ -37,6 +37,7 @@
     padding:10px;
     padding-bottom:60px;
     width: 1100px;
+    clear: both;
     
 }
 
@@ -66,21 +67,37 @@ footer {
     font-size: 20px;
 }
 
-#nutlist
-{
-    margin-left: 100px;
-}
-
-#indredients
+/*#nutlist
 {
     float: left;
+    margin-left: 100px;
+    
+}*/
+
+#card {
+    float: left;
+    width: 25%;
+    background: grey;
 }
+
+#card2 {
+    float: left;
+    width: 25%;
+    background: grey
+}
+
+/*#ingredients
+{
+    float: right;
+
+}*/
 
 #link-button
 {
-    position: absolute;
-    left: 41%;
+    position: relative;
+    left: 5%;
     top: 123.5%;
     text-align: center;
     font-size: 18px;
+    background: #4db6ac;
 }
