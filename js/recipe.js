@@ -39,7 +39,7 @@ $("#search-button").on("click", function(event){
             $("#card3").append("<p id = 'info header'> Diet Style: "+ response.hits[food].recipe.healthLabels +"</p>");
 
             /**********************************************************************************************************************/
-            $("#recipe-view").append('<div id="card" class="card-panel teal">')
+            $("#recipe-view").append('<div id="card" class="card-panel red">')
             $("#card").append("<ul id ='nutList'>")
             for(var j = 0; j < response.hits[food].recipe.digest.length; j++)
             {
@@ -47,7 +47,7 @@ $("#search-button").on("click", function(event){
                 $("#nutList").append("<div id = 'info'>" + response.hits[food].recipe.digest[j].label+": "+num+"</div>");
             }
             /**********************************************************************************************************************/
-            $("#recipe-view").append('<div id="card2" class="card-panel teal">')
+            $("#recipe-view").append('<div id="card2" class="card-panel purple">')
             $("#card2").append("<ol id ='indgredients'>")
             for(var k = 0; k < response.hits[food].recipe.ingredientLines.length; k++)
             {
